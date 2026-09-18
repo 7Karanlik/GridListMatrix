@@ -1,0 +1,14 @@
+{
+  "name": "custom-matrix-visual",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Power BI custom Matrix visual with removable column headers",
+  "scripts": { "package": "pbiviz package" },
+  "dependencies": {
+    "powerbi-visuals-api": "~4.7.0"
+  },
+  "devDependencies": {
+    "powerbi-visuals-tools": "2.5.0",
+    "typescript": "3.6.3"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "visual": {
+    "name": "CustomMatrixVisual",
+    "displayName": "Custom Matrix",
+    "guid": "CustomMatrixA1B2C3D4E5F6478899AABBCCDDEEFF00",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Custom Matrix with optional column headers",
+    "supportUrl": "https://github.com/",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "4.7.0",
+  "author": { "name": "Custom Matrix", "email": "" },
+  "assets": { "icon": "assets/icon.png" },
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "stringResources": []
+}

@@ -1,0 +1,6 @@
+1. Create a new GitHub repository.
+2. Upload the contents of this folder to the repository root.
+3. Open Actions -> Build Custom Matrix Visual.
+4. Click Run workflow.
+5. Download the CustomMatrixVisual-pbiviz artifact.
+6. Extract it and import the .pbiviz file into Power BI Desktop.
