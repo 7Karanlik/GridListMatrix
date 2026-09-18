@@ -1,4 +1,22 @@
 {
+  "privileges": [],
+  "dataRoles": [
+    {
+      "name": "rows",
+      "kind": "Grouping",
+      "displayName": "Rows"
+    },
+    {
+      "name": "columns",
+      "kind": "Grouping",
+      "displayName": "Columns"
+    },
+    {
+      "name": "values",
+      "kind": "Measure",
+      "displayName": "Values"
+    }
+  ],
   "objects": {
     "header": {
       "properties": {
@@ -9,9 +27,28 @@
             "bool": true
           }
         },
+        "headerBackground": {
+          "displayName": "Header Background",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "headerTextColor": {
+          "displayName": "Header Text Color",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
         "headerFontSize": {
           "displayName": "Header Font Size",
-          "description": "Column header font size.",
           "type": {
             "numeric": true
           }
@@ -19,5 +56,25 @@
       }
     }
   },
-  "privileges": []
+  "dataViewMappings": [
+    {
+      "matrix": {
+        "rows": {
+          "for": {
+            "in": "rows"
+          }
+        },
+        "columns": {
+          "for": {
+            "in": "columns"
+          }
+        },
+        "values": {
+          "for": {
+            "in": "values"
+          }
+        }
+      }
+    }
+  ]
 }
