@@ -9,10 +9,10 @@
     "supportUrl": "https://github.com/",
     "gitHubUrl": ""
   },
-  "apiVersion": "4.7.0",
+  "apiVersion": "5.3.0",
   "author": {
-    "name": "Custom Matrix",
-    "email": ""
+    "name": "7Karanlik",
+    "email": "7karanlik@example.com"
   },
   "assets": {
     "icon": "assets/icon.png"
