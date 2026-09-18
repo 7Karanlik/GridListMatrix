@@ -1,6 +1,10 @@
-1. Create a new GitHub repository.
-2. Upload the contents of this folder to the repository root.
-3. Open Actions -> Build Custom Matrix Visual.
-4. Click Run workflow.
-5. Download the CustomMatrixVisual-pbiviz artifact.
-6. Extract it and import the .pbiviz file into Power BI Desktop.
+1. Upload/commit this project to the repository root.
+2. GitHub -> Actions -> Build GridListMatrix -> Run workflow.
+3. Open the completed run and download artifact: GridListMatrix-pbiviz.
+4. The artifact contains the .pbiviz file.
+5. Import the .pbiviz into Power BI Desktop.
+
+The visual implements a real render-time switch:
+Matrix Header -> Show Column Header
+OFF = no header <tr> elements are created at all.
+This is not a white-text workaround.
